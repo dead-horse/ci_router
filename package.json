@@ -1,0 +1,27 @@
+{
+  "name": "cirouter",
+  "version": "0.1.1",
+  "description": "A PHP CI like router for node(connect or http)",
+  "keywords": ["router", "connect", "CI"],
+  "author": "dead_horse<heyiyu.deadhorse@gmail.com> (http://github.com/dead-horse)",
+  "homepage": "https://github.com/dead-horse/ci_router",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dead-horse/ci_router.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "should": ">=0.4.2",
+    "mocha": ">=0.7.1",
+    "connect": "=1.8.5"
+  },
+  "license": "MIT",
+  "engines": { 
+    "node": ">= 0.6.0" 
+  }
+}
