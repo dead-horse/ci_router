@@ -59,7 +59,7 @@ http.createServer(router({
   })).listen(8082);
 ```
    
-```router```方法参数：    
+## Router options       
  * path: controller文件所在目录   
  * deepth: controller文件夹读取的子文件夹深度，默认值1，不读取该文件夹下子文件夹   
  * root: 访问网站主页映射到的url   
