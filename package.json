@@ -16,9 +16,9 @@
   "dependencies": {
   },
   "devDependencies": {
-    "should": ">=0.4.2",
-    "mocha": ">=0.7.1",
-    "connect": "=1.8.5"
+    "should": "*",
+    "mocha": "*",
+    "connect": ">1.8"
   },
   "license": "MIT",
   "engines": { 

@@ -1,2 +1,4 @@
+--require test/support/ensure_require.js
 --require should
 --require test/support/http.js
+
