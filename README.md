@@ -21,6 +21,12 @@ rewrite: {
   "/product/[0-9]+":"/catelog/product_lookup"
   }
 ```
+
+## Install   
+```
+npm install cirouter
+```   
+   
 ## Usage   
 
 ```
