@@ -60,10 +60,10 @@ http.createServer(router({
 ```
    
 ## Router options       
- * path: controller文件所在目录   
- * deepth: controller文件夹读取的子文件夹深度，默认值1，不读取该文件夹下子文件夹   
- * root: 访问网站主页映射到的url   
- * index: controller文件的默认方法名，默认为'index'。e.x:example.com/test将会指向controller文件夹下的test.js文件的index方法   
+ * path: controller文件所在目录, 默认：'./controllers'。      
+ * deepth: controller文件夹读取的子文件夹深度，默认：1，不读取该文件夹下子文件夹。   
+ * root: 访问网站主页映射到的url。   
+ * index: controller文件的默认方法名，默认：'index'。e.x:example.com/test将会指向controller文件夹下的test.js文件的index方法   
  * rewrite: url重写的配置，key支持正则   
  * pageNotFound: 404的处理函数，如果没有则使用默认   
 
@@ -77,6 +77,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.   
    
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.   
-
-## Todo   
- * Benchmark && 优化
