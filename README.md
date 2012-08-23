@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/dead-horse/ci_router.png)](http://travis-ci.org/dead-horse/ci_router)
 ci_router
 =========
 
